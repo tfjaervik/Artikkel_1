@@ -1,0 +1,32 @@
+\begin{table}[ht]
+\caption{\\ \large{\textbf{Future returns sorted on TailRisk}}}
+\captionsetup{font = footnotesize, justification = justified, width = \linewidth}
+\caption*{Funds have been sorted into quintiles based on their
+                        estimated TailRisk. For each quintile, a value weighted return
+                        for month \textit{t+1} has been calculated using weights from
+                        month \textit{t}. This gives 1 time series per quintile of value
+                        weighted portfolio returns in month \textit{t+1}. The column 
+                        'Returns' report the time average of these series. *, **
+                        and *** indicate statistical significance at,
+                        respectively, the 10\%, 5\% and 1\% significance level.
+                        
+                        Note that in the presence of tied TailRisk values, the first 
+                        observation with that TailRisk value is ranked lower than the 
+                        following observation with the same TailRisk value. This pattern
+                        repeats in the presence of more than two ties.}
+\centering
+\label{tab:TailRisk_sorted_future_returns}
+\begin{tabular}[t]{llr}
+\toprule
+Quintile & Returns & P-value\\
+\midrule
+1 Weak TailRisk & 0.663\%*** & 0.003\\
+2 & 0.726\%*** & 0.004\\
+3 & 0.594\%** & 0.013\\
+4 & 0.688\%*** & 0.002\\
+5 Strong TailRisk & 0.797\%*** & 0.001\\
+\addlinespace
+Strong - Weak & 0.134\% & 0.291\\
+\bottomrule
+\end{tabular}
+\end{table}

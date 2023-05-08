@@ -1,0 +1,43 @@
+\begin{table}[H]
+\caption{\\ \large{\textbf{Future returns regressed on different factors}}}
+\captionsetup{justification = justified, width = \linewidth}
+\caption*{Regression of one-month-ahead returns on different
+                               sets of control variables. The dependent variable is
+                               the one-month-ahead return. (1) is a univariate regression
+                               on LTD, (2) is a bivariate regression on LTD and beta,
+                               (3) is a multivariate regression on LTD, beta and downside 
+                               beta, and (4) is a multivariate regression on LTD, beta,
+                               downside beta and upside beta. Standard errors are clustered
+                               on months.}
+   \centering
+\label{reg_clustered_on_time_1}
+   \begin{tabular}{lcccccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{6}{c}{$r_{t+1}$}\\
+      Model:         & (1)          & (2)      & (3)      & (4)      & (5)          & (6)\\  
+      \midrule
+      \emph{Variables}\\
+      (Intercept)    & 0.0056$^{*}$ & 0.0046   & 0.0046   & 0.0050   & 0.0043       & 0.0002\\   
+                     & (0.0030)     & (0.0040) & (0.0040) & (0.0040) & (0.0040)     & (0.0046)\\   
+      LTD            & 0.0066       & 0.0066   & 0.0067   & 0.0065   & 0.0049       & 0.0039\\   
+                     & (0.0043)     & (0.0043) & (0.0043) & (0.0043) & (0.0041)     & (0.0042)\\   
+      $\beta$        &              & 0.0009   & 0.0002   & -0.0044  & -0.0046      & -0.0039\\   
+                     &              & (0.0036) & (0.0048) & (0.0059) & (0.0058)     & (0.0058)\\   
+      $\beta^{-}$    &              &          & 0.0007   & 0.0013   & 0.0006       & 0.0013\\   
+                     &              &          & (0.0029) & (0.0030) & (0.0032)     & (0.0033)\\   
+      $\beta^{+}$    &              &          &          & 0.0038   & 0.0045$^{*}$ & 0.0036\\   
+                     &              &          &          & (0.0025) & (0.0026)     & (0.0027)\\   
+      coskewness     &              &          &          &          & -0.0048      & 0.0022\\   
+                     &              &          &          &          & (0.0060)     & (0.0065)\\   
+      cokurtosis     &              &          &          &          &              & 0.2435$^{*}$\\   
+                     &              &          &          &          &              & (0.1363)\\   
+      \midrule
+      \emph{Fit statistics}\\
+      Observations   & 451,044      & 451,044  & 451,044  & 451,044  & 451,044      & 451,044\\  
+      R$^2$          & 0.00029      & 0.00031  & 0.00036  & 0.00195  & 0.00368      & 0.01269\\  
+      Adjusted R$^2$ & 0.00029      & 0.00031  & 0.00035  & 0.00194  & 0.00367      & 0.01268\\  
+      \midrule \midrule
+      \multicolumn{7}{l}{\emph{Clustered (date) standard-errors in parentheses}}\\
+      \multicolumn{7}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+\end{table}

@@ -1,0 +1,11 @@
+---
+title: "Crash risk in US funds - preliminary"
+format: pdf
+toc: TRUE
+author: "Thomas Fjærvik"
+---
+
+{{< pagebreak >}}
+
+{{< include _sections\_results.qmd >}}
+

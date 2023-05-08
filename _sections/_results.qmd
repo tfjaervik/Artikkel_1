@@ -1,0 +1,15 @@
+# Preliminary results
+
+## Univariate sorts
+
+\input{_tables/univariate_sorts.tex}
+
+Table \ref{tab:LTD_sorted_future_returns} shows the results of sorting funds into quintiles based on LTD and calculating the average one-month-ahead value-weighted return for each quintile portfolio. 
+
+\input{_tables/univariate_sorts_TailRisk.tex}
+
+# Regression analysis
+
+\input{_tables/reg_clustered_on_time_1.tex}
+
+\input{_tables/reg_clustered_on_time_1_TailRisk.tex}

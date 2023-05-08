@@ -1,0 +1,32 @@
+\begin{table}[ht]
+\caption{\\ \large{\textbf{Future returns sorted on LTD}}}
+\captionsetup{font = footnotesize, justification = justified, width = \linewidth}
+\caption*{Funds have been sorted into quintiles based on their
+                        estimated LTD. For each quintile, a value weighted return
+                        for month \textit{t+1} has been calculated using weights from
+                        month \textit{t}. This gives 1 time series per quintile of value
+                        weighted portfolio returns in month \textit{t+1}. The column 
+                        'Returns' report the time average of these series. *, **
+                        and *** indicate statistical significance at,
+                        respectively, the 10\%, 5\% and 1\% significance level.
+                        
+                        Note that in the presence of tied LTD values, the first 
+                        observation with that LTD value is ranked lower than the 
+                        following observation with the same LTD value. This pattern
+                        repeats in the presence of more than two ties.}
+\centering
+\label{tab:LTD_sorted_future_returns}
+\begin{tabular}[t]{llr}
+\toprule
+Quintile & Returns & P-value\\
+\midrule
+1 Weak LTD & 0.706\%*** & 0.003\\
+2 & 0.706\%*** & 0.002\\
+3 & 0.722\%*** & 0.002\\
+4 & 0.684\%*** & 0.003\\
+5 Strong LTD & 0.673\%*** & 0.002\\
+\addlinespace
+Strong - Weak & -0.033\% & 0.418\\
+\bottomrule
+\end{tabular}
+\end{table}
